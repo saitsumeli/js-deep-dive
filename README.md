@@ -9,3 +9,33 @@ Goal: build rock-solid fundamentals + modern JS fluency by shipping small, focus
 - Every topic ends with code, notes, and a small deliverable.
 
 ## Structure
+
+## Core Mental Models
+
+I don’t memorize behavior.
+I simulate the engine.
+
+- Execution Context (Global + Function)
+- Memory Phase vs Execution Phase
+- Scope Chain (inside → outside)
+- Hoisting differences (var / let / function)
+- Shadowing
+- Closure (environment reference, not value copy)
+- Pre vs Post increment reasoning
+
+## Session Log
+
+### Session 1 – Execution Context & Scope
+
+Covered:
+- Call Stack deep dive
+- Hoisting mechanics
+- TDZ behavior
+- Shadowing edge cases
+- Closure mental model
+- Increment operator behavior simulation
+
+Outcome:
+Able to predict output of nested scope problems without running code.
+
+If I cannot predict the output before running it, I don’t understand it yet.
