@@ -1,0 +1,21 @@
+{
+  "name": "js-deep-dive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node script.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saitsumeli/js-deep-dive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saitsumeli/js-deep-dive/issues"
+  },
+  "homepage": "https://github.com/saitsumeli/js-deep-dive#readme"
+}
