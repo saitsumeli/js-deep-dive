@@ -39,3 +39,17 @@ Outcome:
 Able to predict output of nested scope problems without running code.
 
 If I cannot predict the output before running it, I don’t understand it yet.
+
+## Engine Simulation Notes
+
+For every session, I write:
+
+1. Creation Phase (Memory Allocation)
+   - Variables:
+   - Functions:
+   - TDZ:
+
+2. Execution Phase
+   - Line-by-line evaluation
+   - Scope lookup path
+   - Call stack transitions
