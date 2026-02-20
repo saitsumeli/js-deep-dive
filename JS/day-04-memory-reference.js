@@ -59,3 +59,25 @@ shallow.meta.tags.push("closure");
 
 console.log("original.meta.level:", original.meta.level); // "senior" ❌
 console.log("original.meta.tags:", original.meta.tags);   // push etkiler ❌
+
+/* 5) Deep copy: structuredClone varsa en temiz */
+console.log("\n5) Deep copy (structuredClone vs custom)");
+
+/**
+ * NOT: structuredClone:
+ * - modern ortamlarda var
+ * - Date, Map, Set, ArrayBuffer vb. bir sürü şeyi doğru kopyalar
+ * - function kopyalamaz (zaten mantıksız)
+ */
+
+const deep1 = typeof structuredClone === "function"
+  ? structuredClone(original)
+  : null;
+
+if (deep1) {
+  deep1.meta.level = "legend";
+  deep1.meta.tags.push("reference");
+
+  console.log("original.meta.level:", original.meta.level); // "senior" (değişmez artık)
+  console.log("deep1.meta.level:", deep1.meta.level);       // "legend"
+}
