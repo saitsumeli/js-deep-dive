@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node script.js"
+    "day5": "node JS/day-05-memoization.js"
 },
   "repository": {
     "type": "git",
